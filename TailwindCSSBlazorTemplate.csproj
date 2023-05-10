@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageVersion>1.0</PackageVersion>
+    <PackageId>TailwindCSSBlazorTemplate</PackageId>
+    <Title>RMSteenwijk Blazor and Tailwindcss Template</Title>
+    <Authors>RMSteenwijk</Authors>
+    <Description>Templates to use when creating an application for quick prototyping.</Description>
+    <PackageTags>dotnet-new;templates</PackageTags>
+    <TargetFramework>net6.0</TargetFramework>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/RMSteenwijk/TailwindCSSBlazorTemplate.git</RepositoryUrl> 
+    <RepositoryType>git</RepositoryType> 
+
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="BlazorTemplate\**\*" Exclude="BlazorTemplate\**\bin\**;BlazorTemplate\**\obj\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+</Project>

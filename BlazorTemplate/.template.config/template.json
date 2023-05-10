@@ -2,9 +2,9 @@
     "$schema": "http://json.schemastore.org/template",
     "author": "Roy Steenwijk",
     "classifications": [ "Common", "Blazor", "Tailwindcss" ],
-    "identity": "BlazorTemplate",
+    "identity": "TailwindCSSBlazor",
     "name": "Templates blazor tailwindcss combo project",
-    "shortName": "blazortemplate",
+    "shortName": "tailwindcssblazor",
     "tags": {
       "language": "C#",
       "type": "project"
