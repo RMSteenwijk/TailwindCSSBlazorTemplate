@@ -10,6 +10,6 @@ Blazor TailwindCSS Template
 ### Installation
 
 1. [Download and install the .NET Core SDK](https://dotnet.microsoft.com/download)
-2. dotnet tool install TailwindCSSBlazorTemplate
+2. dotnet new install TailwindCSSBlazorTemplate::1.0.0
 3. dotnet new tailwindcssblazor
 4. dotnet run
